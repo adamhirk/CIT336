@@ -1,0 +1,237 @@
+body{
+    margin: 0;
+    padding:0;
+}
+header{
+}
+#content{
+    margin:0 auto;
+    width:1000px;
+    height:600px;
+}
+#about{
+    width:400px;
+    text-align:center;
+    float:left;
+    margin:-20px 0px 0px 40px;
+}
+#register{
+    height:300px;
+    width:400px;
+    margin:0px 0px 25px 560px;
+    text-align:center;
+}
+button{
+    background-color: orange;
+    border-radius: 15px;
+    padding:6px;
+    border-color:black;
+    font-size:.9em;
+    width:150px;
+}
+button:hover{
+    background-color:black;
+    border-color:orange;
+    color:orange;
+}
+h1, h3{
+    font-family: Verdana, sans-serif;
+}
+h3{
+    text-align: center;
+    margin-bottom: -20px;
+}
+p{
+    font-family: Verdana, sans-serif;
+}
+#loginregister{
+    height:350px;
+}
+fieldset{
+    font-family: sans-serif;
+    border:none;
+}
+fieldset legend{
+    font-size:2em;
+    text-align:center;
+    margin-bottom:20px;
+}
+fieldset ul{
+    list-style-type:none;
+}
+ul{
+    list-style-type: none; 
+    text-align:center;
+}
+li{
+    font-family:Verdana, sans-serif;
+    font-size:.9em;
+    display:inline;
+    padding-right:20px;
+}
+fieldset li{
+    padding-top:15px;
+}
+label{
+    float:left;
+    width:170px;
+    padding-right:6px;
+    text-align: right;
+    margin-left:-5px;
+}
+input{
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    padding: 3px;
+    background: #fff;
+    border: solid 1px #ccc;
+    width:150px;
+    outline:none;
+    display:inline-block;
+    margin-left: 10px;
+}
+input:focus{
+    border: 1px solid #FFA500;
+    box-shadow: 0px 0px 3px 1px #FFE8A7;
+}
+input:hover{
+    box-shadow: 0px 0px 3px 1px #cccccc;
+}
+.valid{
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    padding: 3px;
+    background: #fff;
+    border: solid 1px #ccc;
+    width:150px;
+    outline:none;
+    display:inline-block;
+    margin-left: 220px;
+}
+
+#banner {
+        background-color:orange;
+        height: 100px;
+        margin: 0 auto;
+        padding: 20px;
+        font-family: serif;
+        font-style: normal;
+        font-size: 30px;
+        text-align: center;
+}
+#banner h1{
+      color: white;
+  font-family: verdana, sans-serif;
+}
+nav {
+        margin: 0px auto 70px auto;
+        padding: 5px 0px 5px 0px;
+        height: 40px;
+        width: 600px;
+        font-family:sans-serif;
+        font-size:1.3em;
+}
+#topnav{
+        display: inline;
+        list-style-type: none;
+        padding: 30px 0px 30px 30px;        
+}
+
+li a{
+    color: black;
+    text-decoration:none; 
+}
+a:hover{
+    color: orange;
+}
+a:active{
+    color: orange;
+}
+td:even{
+    background-color:lightgray;
+}
+
+#registerform, #infoupdateform{
+    float: left;
+    border-right: 2px solid orange;
+    width: 450px;
+    margin-left:50px;
+}
+
+#loginform{
+    margin-top: -36px;
+    margin-left: 550px;
+}
+#register a{
+    text-decoration: none;
+    color: black;
+}
+footer{
+    background-color:black;
+    padding-top:100px;
+    margin:0px auto 0px;
+    font-family:Verdana, sans-serif;
+    text-align:center;
+    color:white;
+    height:150px;
+    
+}
+footer li{
+    list-style-type: none;
+    display: inline;
+    padding: 30px;
+}
+footer li a{
+    color:white;
+}
+#userstable{
+    border: 1px solid black;  
+    margin: 50px auto 0px;
+    width: 675px;
+}
+#userstable th{
+    background-color: black;
+    color: white;
+    text-align:center;
+}
+#userstable td{
+    text-align: center;
+}
+@media only screen and (max-width: 480px){
+    body{
+        margin:0px;
+        padding:0px;
+        width:320px;
+        text-align:left;
+    }
+    #banner{
+        font-size:15px;
+        text-align:center;
+    }
+    nav{
+        width:320px;
+        margin:0;
+        font-size:15px;
+    }
+    #content{
+        max-width:300px;
+        font-size:.7em;
+        margin:0px;
+    }
+    #about{
+    width:400px;
+    text-align:center;
+    margin:0px 0px 0px 0px;
+    width:320px;
+}
+#register{
+    width:320px;
+    margin:0px;
+}
+#registerform, #loginform{
+    width:320px;
+    margin:0px;
+}
+}
